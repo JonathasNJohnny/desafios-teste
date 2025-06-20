@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex Responsive Layout Using Tailwind CSS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="min-h-screen flex flex-col dark:bg-gray-900 dark:text-white">
+    <header
+      class="bg-stone-950 text-white text-center p-4 text-xl dark:bg-stone-950"
+    >
+      Header
+    </header>
+
+    <main class="flex flex-col md:flex-row flex-1">
+      <div
+        class="flex-1 bg-gray-100 p-4 border m-1 text-center dark:bg-gray-800 dark:border-gray-600"
+      >
+        Col 1
+      </div>
+      <div
+        class="flex-1 bg-gray-100 p-4 border m-1 text-center dark:bg-gray-800 dark:border-gray-600"
+      >
+        Col 2
+      </div>
+      <div
+        class="flex-1 bg-gray-100 p-4 border m-1 text-center dark:bg-gray-800 dark:border-gray-600"
+      >
+        Col 3
+      </div>
+    </main>
+
+    <footer class="bg-stone-950 text-white text-center p-4 dark:bg-stone-95">
+      <div>Footer</div>
+      <div class="w-full text-left text-gray-600">
+        <span class="text-sm"> Here we can put some infos about our page </span>
+      </div>
+      <div class="w-full text-left text-gray-600">
+        <a class="text-sm text-decoration-line: underline" href="#">
+          click here for more info
+        </a>
+        <span class="text-sm">(fake)</span>
+      </div>
+    </footer>
+  </body>
+</html>
